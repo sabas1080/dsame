@@ -6,7 +6,7 @@ COPYRIGHT = 'Copyright (C) 2015 Joseph W. Metcalf'
 TEST_STRING = 'EAS: ZCZC-WXR-RWT-055027-055039-055047-055117-055131-055137-055139-055015-055071+0030-0771800-KMKX/NWS-'
 
 MSG__TEXT={
-    'EN' : 
+    'EN' :
         {'MSG1' : '{article} {organization} {preposition} {location} {has} issued a {event} valid until {end}',
         'MSG2' : '{conjunction} for the following {division} in {state}: ',
         'MSG3' : '{county}{punc} ',
@@ -5790,8 +5790,8 @@ CA_SAME_CODE={
 
 SAME_LOCA={
     '0' : None,
-    '1' : 'Northwest', 
-    '2' : 'North Central', 
+    '1' : 'Northwest',
+    '2' : 'North Central',
     '3' : 'Northeast',
     '4' : 'West Central',
     '5' : 'Central',
@@ -5810,7 +5810,7 @@ SAME_LOCB={
 
 # SAME_CTYB is a list of "B" class counties for geographic subdivisons. If this applies to your area, add your county code to this list, and modify SAME_LOCB as needed.
 # A, C and D counties all use SAME_LOCA
- 
+
 SAME_CTYB=['SAME1', 'SAME2']
 
 SAME__ORG={
@@ -5913,10 +5913,10 @@ SAME__EEE={
     'WFA' : 'Wild Fire Watch',
     'WFW' : 'Wild Fire Warning',
 }
- 
+
  # This list is a NOAA list of meteorological station locations cross referenced with the FAA list of airport codes and locations.
  # Without a definative list of ICAO codes used with NWS alerts, this is the best available information. No source matches all ICAO codes in use.
- 
+
 ICAO_LIST={
     'LOCATION' : 'US',
     'K01R' : 'CLAIBORNE RANGE, LOUISANA',
@@ -7933,5 +7933,5 @@ ICAO_LIST={
     'PMDY' : 'MIDWAY ATOLL, MIDWAY ATOLL',
     'POLI' : 'OLIKTOK POINT, ALASKA',
     'PPIZ' : 'POINT LAY, ALASKA',
+    'XGDF' : 'DF, MEXICO'
 }
-
